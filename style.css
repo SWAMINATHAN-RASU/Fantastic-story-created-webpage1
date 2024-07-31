@@ -1,0 +1,87 @@
+.{
+    margin: 0;
+    padding: 0;
+}
+
+.contentbox, footer{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.showbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0;
+}
+
+.vid-container{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+}
+
+.vid-content{
+    z-index: 1;
+    color: white;
+    margin-left: 17%;
+}
+
+.vid-content h1{
+    font-size: 40px;
+}
+.vid-content a{
+    margin-left: 25px;
+    background-color: lightcoral;
+    padding: 10px;
+    text-decoration: none;
+}
+.vid-content a:hover{
+    text-decoration: underline;
+}
+
+.top-section1 h1{
+    font-size: 40px;
+    color: lightcoral;
+    text-align: center;
+
+}
+.top-section2 h1{
+    font-size: 40px;
+    color: olivedrab;
+    text-align: center;
+}
+.bottom-section,.down-section p {
+     font-size: 20px;
+    text-indent: 50px;
+}
+
+.bottom-section p::first-letter 
+{
+ font-size: 50px;
+ color: lightpink;
+}
+
+.down-section p::first-letter {
+    font-size: 50px;
+    color: darkolivegreen;
+}
+footer{
+  text-align: center;
+}
+button{
+    margin-left: 45%;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    background-color: brown;
+}
+button a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+

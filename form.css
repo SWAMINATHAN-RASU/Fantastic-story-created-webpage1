@@ -1,0 +1,26 @@
+
+.{
+margin: 0;
+padding: 0; 
+}
+
+body{
+    border: 5px solid blue;
+    background: linear-gradient(105deg,#ff0000 40%, #00ff00 60%);
+
+}
+form{
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 2px solid salmon;
+    background: linear-gradient(20deg,#d67a7a 60%, #d6d4d4 40%);
+
+}
+button{
+    margin-left: 30px;
+    border-radius: 5px;
+    height: 50px; width: 150px;
+}
+label{
+    display: block;
+}
